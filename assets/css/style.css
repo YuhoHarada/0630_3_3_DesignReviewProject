@@ -116,13 +116,39 @@ header h1{
 }
 
 /* ********************* deliverables ********************* */
+#deliverables{
+    display: flex;
+    padding: 0 5% 150px;
+}
 
+#deliverables img{
+    display: block;
+    width: 50%;
+    margin-right: 30px;
+}
 
+#deliverables h2{
+    font-family: TiemposHeadline;
+    font-size: 4em;
+    margin-bottom: 50px;
+}
 
+#deliverables h4{
+    font-family: Graphik;
+    font-weight: 500;
+    font-size: 1.6em;
+    margin-bottom: 25px;
+}
 
+#deliverables p{
+    font-family: Theinhardt;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    color: #848689;
+    margin-bottom: 40px;
+}
 
-
-
+/* ********************* howitworks ********************* */
 
 
 
