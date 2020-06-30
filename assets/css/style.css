@@ -1,0 +1,86 @@
+@font-face{
+    font-family: Graphik;
+    src: url(../font/Graphik-Regular.woff);
+}
+
+@font-face{
+    font-family: Graphik;
+    src: url(../font/Graphik-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: Theinhardt;
+    src: url(../font/Theinhardt-Lt.woff);
+}
+
+@font-face{
+    font-family: TiemposHeadline;
+    src: url(../font/TiemposHeadline-Semibold.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #2B2C2E;
+}
+
+/* ********************* header ********************* */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 5%;
+}
+
+header nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+header a{
+    font-family: Graphik;
+    text-decoration: none;
+    color: #2B2C2E;
+    transition: .5s ease;
+    font-size: 0.9em;
+}
+
+header a:hover{
+    color: #848689;
+}
+
+header>a{
+    border: 3px solid #2B2C2E;
+    padding: 10px 70px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+header>a:hover{
+    background: #2B2C2E;
+    color: #fff;
+}
+
+header h1{
+    font-family: TiemposHeadline;
+}
+
+/* ********************* hero ********************* */
+#hero{
+    
+}
+
+
+/* 
+font-family: Graphik;
+font-family: Graphik;
+font-weight: 500;
+font-family: Theinhardt;
+font-family: TiemposHeadline;
+
+Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff
+ */
