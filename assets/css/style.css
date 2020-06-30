@@ -151,7 +151,7 @@ header h1{
 /* ********************* howitworks ********************* */
 #howitworks{
     background: #eee;
-    margin: 0 5% 100px;
+    margin: 0 5% 150px;
     display: flex;
 }
 
@@ -183,10 +183,43 @@ header h1{
 }
 
 /* ********************* conversion ********************* */
+#conversion{
+    text-align: center;
+}
 
+#conversion h3{
+    font-family: TiemposHeadline;
+    font-size: 3.8em;
+    margin-bottom: 50px;
+}
 
+#conversion>p{
+    font-family: Theinhardt;
+    color: #848689;
+    font-size: 1.2em;
+    line-height: 1.8em;
+    margin-bottom: 100px;
+}
 
+#conversion article{
+    display: flex;
+    background: url(../img/28.png) top/contain no-repeat;
+    padding: 220px 5% 100px 20%;
+}
 
+#conversion article p{
+    font-family: Graphik;
+    font-weight: 500;
+    color: #9FA2A7;
+    text-align: left;
+    font-size: 1.3em;
+    line-height: 2em;
+    padding: 100px 50% 30px 0;
+    background: url(../img/home_conversion.png) right bottom/contain no-repeat;
+    
+}
+
+/* ********************* footer ********************* */
 
 
 /* 
