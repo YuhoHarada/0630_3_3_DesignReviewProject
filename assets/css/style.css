@@ -36,6 +36,10 @@ header{
     padding: 20px 5%;
 }
 
+header div{
+    display: none;
+}
+
 header nav ul li{
     display: inline;
     margin: 0 10px;
@@ -79,6 +83,7 @@ header h1{
     font-weight: 400;
     text-align: center;
     font-size: 2.5em;
+    padding: 0 5%;
     margin-bottom: 50px;
 }
 
@@ -99,11 +104,11 @@ header h1{
     font-size: 1.5em;
     line-height: 1.5em;
     width: 75%;
-    margin-right: 5%;
 }
 
 #hero article div{
     font-family: Theinhardt;
+    margin-left: 5%;
 }
 
 #hero article div h3{
@@ -155,27 +160,24 @@ header h1{
     margin: 0 5% 150px;
     display: flex;
     align-items: center;
+    padding-left: 5%;
 }
 
 #howitworks h2{
     font-family: TiemposHeadline;
     font-size: 4em;
-    margin: 0 0 10px 10%;
-}
-
-#howitworks h2:nth-of-type(1){
-    margin-top: 70px;
+    margin-bottom: 10px;
 }
 
 #howitworks p, #howitworks ol{
     font-family: Theinhardt;
-    margin: 0 0 30px 10%;
+    margin-bottom: 30px;
     color: #848689;
     font-size: 1.2em;
 }
 
 #howitworks ol{
-    margin-left: calc(10% + 40px);
+    margin-left: 40px;
 }
 
 #howitworks img{
@@ -205,12 +207,12 @@ header h1{
 
 #conversion article{
     background: url(../img/28.png) top/contain no-repeat;
-    padding: 25vh 5% 5vh 20%;
+    padding: 15vw 5% 5vw 20%;
 }
 
 #conversion article div{
     background: url(../img/home_conversion.png) right bottom/contain no-repeat;
-    padding: 10vh 0 10vh;
+    padding: 6vw 0;
 }
 
 #conversion article p{
@@ -263,3 +265,63 @@ footer div p a:hover{
 
 
 /* ****************************************** */
+@media (max-width:1024px) {
+    html{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:769px) {
+    header nav{
+        height: 100vh;
+        width: 30vw;
+        min-width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:#848689;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: -60%;
+        transition: all 1s ease;
+    }
+
+    header nav ul li{
+        display: block;
+        margin-bottom: 5vh;
+    }
+
+    #deliverables{
+        display: block;
+    }
+
+    #deliverables img, #howitworks img{
+        margin: 0 auto;
+    }
+
+    #howitworks{
+        display: block;
+        padding: 10px 5%;
+    }
+}
+
+@media (max-width:480px) {
+    #hero article{
+        display: block;
+    }
+
+    #hero article>p{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #deliverables img, #howitworks img{
+        width: 100%;
+    }
+
+    #conversion article div{
+        background-position: top;
+        padding: 35vw 0 6vw;
+    }
+}
